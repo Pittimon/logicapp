@@ -10,7 +10,7 @@ variables:
 
   # Resource Group
   resourceGroupLocation: 'southeastasia'
-  resourceGroupName: 'devsecops'
+  resourceGroupName: 'DSO-LOGICAPP'
 
   # Storage
   storageName: 'sa$(projectName)$(suffix)'
