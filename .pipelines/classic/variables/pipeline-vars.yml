@@ -17,7 +17,7 @@ variables:
   appServicePlanName: 'asp$(projectName)$(suffix)'
 
   #  Logic App
-  logicAppName: 'dso-logic'
+  logicAppName: 'dso-lodic'
 
   # API Connections
   officeConnectionName: 'la-wus-$(projectName)-connection-office365'
