@@ -14,7 +14,7 @@
                 "body": {
                     "To": "@appsetting('emailAddress')",
                     "Subject": "Logic App Triggered!",
-                    "Body": "<p>Hello world!</p>"
+                    "Body": "<p>Hello world! Test only workflow</p>"
                 },
                 "path": "/v2/Mail"
             },

@@ -31,9 +31,6 @@ jobs:
     inputs:
       SourceFolder: '$(System.DefaultWorkingDirectory)'
       Contents: |
-        host.json
-        proxies.json
-        connections.json
         ExampleWorkflow/**
       TargetFolder: 'project_output'
 
