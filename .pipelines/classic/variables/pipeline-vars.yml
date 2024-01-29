@@ -6,18 +6,18 @@ variables:
   suffix: 'devw'
 
   # TODO: Fill in with the name of your Azure service connection
-  devServiceConnection: 'AzureDso'
+  devServiceConnection: 'AzureCon'
 
   # Resource Group
   resourceGroupLocation: 'southeastasia'
-  resourceGroupName: 'DSO-LOGICAPP'
+  resourceGroupName: 'devsecops'
 
   # Storage
   storageName: 'sa$(projectName)$(suffix)'
   appServicePlanName: 'asp$(projectName)$(suffix)'
 
   #  Logic App
-  logicAppName: 'dso-lodic'
+  logicAppName: 'dso-logic-app'
 
   # API Connections
   officeConnectionName: 'la-wus-$(projectName)-connection-office365'
