@@ -9,7 +9,7 @@
             "value": "https://azure.status.microsoft/status/"
         },
         "location": {
-            "value": "[resourceGroup().location]"
+            "value": "southeastasia"
         }
     }
 }
