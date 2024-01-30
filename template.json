@@ -4,9 +4,10 @@
   "parameters": {
       "workflows_dso_con_name": {
           "defaultValue": "dso-con",
-          "type": "String"
+          "type": "string"
       },
       "testUri": {
+        "type": "string",
         "defaultValue": "https://azure.status.microsoft/status/"
     }
   },
